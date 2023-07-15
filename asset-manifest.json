@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SimpleReactWebsite/static/css/main.f1a99bce.css",
-    "main.js": "/SimpleReactWebsite/static/js/main.7cc42683.js",
+    "main.css": "/SimpleReactWebsite/static/css/main.f21e1630.css",
+    "main.js": "/SimpleReactWebsite/static/js/main.9a7709aa.js",
     "static/js/787.7ab9ffab.chunk.js": "/SimpleReactWebsite/static/js/787.7ab9ffab.chunk.js",
     "static/media/appdevlop.jpg": "/SimpleReactWebsite/static/media/appdevlop.8eba742a6e2debfd2337.jpg",
     "static/media/aboutuslogo.jpg": "/SimpleReactWebsite/static/media/aboutuslogo.84949ea5dbf787761fe6.jpg",
@@ -11,12 +11,12 @@
     "static/media/digital.jpg": "/SimpleReactWebsite/static/media/digital.3ee96147897407e8cd26.jpg",
     "static/media/software.jpg": "/SimpleReactWebsite/static/media/software.516765157e740ba9d051.jpg",
     "index.html": "/SimpleReactWebsite/index.html",
-    "main.f1a99bce.css.map": "/SimpleReactWebsite/static/css/main.f1a99bce.css.map",
-    "main.7cc42683.js.map": "/SimpleReactWebsite/static/js/main.7cc42683.js.map",
+    "main.f21e1630.css.map": "/SimpleReactWebsite/static/css/main.f21e1630.css.map",
+    "main.9a7709aa.js.map": "/SimpleReactWebsite/static/js/main.9a7709aa.js.map",
     "787.7ab9ffab.chunk.js.map": "/SimpleReactWebsite/static/js/787.7ab9ffab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1a99bce.css",
-    "static/js/main.7cc42683.js"
+    "static/css/main.f21e1630.css",
+    "static/js/main.9a7709aa.js"
   ]
 }
