@@ -70,7 +70,10 @@
 .footer-name{
     font-weight: 500;
 }
-
+.footer-fixed{
+    position: fixed;
+    bottom: auto;
+}
 @keyframes up-down{
     0%{
         transform: translateY(11px);
