@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 1.6rem!important;
+    color: #565387!important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: #3498db!important;
+}
+.isActive{
+    color: #3498db!important;
+}
+.navbar{
+    background-color: #fff!important;
+}
+/* Home Page */
+#header
+{
+    width: 100%;
+    height:80vh;
+    margin-top: 60px;
+}
+#header h1{
+    margin:0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+#header .brand-name{
+    color:#3498db;
+}
+#header h2{
+    color: #484848;
+    font-size: 24px;
+}
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: 0.5s;
+    color: #3498db;
+    border:1px solid #3498db;
+    text-decoration: none;
+}
+#header .btn-get-started:hover{
+    background: #3498db;
+    color: #fff;
+}
+.navbar-bg{
+    background-color: #3498db!important;
+}
+.header-img{
+    text-align: right;
+}
+#header .animated{
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
+}
+.footer-name{
+    font-weight: 500;
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(11px);
+    }
+    100%{
+        transform: translateY(-10PX);
+    }
+}
+
+@media(max-width:991px)
+{
+    .navbar-brand{
+        font-size:1.3rem!important;
+    }
+
 }
